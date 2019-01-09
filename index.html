@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link rel="stylesheet" href='App.css'/>
+</head>
+
+<body>
+    <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-688238583 cc-invisible"
+        style="display: none;">
+        <!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses cookies to ensure you
+            get the best experience on our website. <a aria-label="learn more about cookies" role="button" tabindex="0"
+                class="cc-link" href="https://cookiesandyou.com" rel="noopener noreferrer nofollow" target="_blank">Learn
+                more</a></span>
+        <div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got
+                it!</a></div>
+        <!--googleon: all-->
+    </div>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root">
+        <div class="App">
+            <div id="new-tab">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+                    <div class="container"><span class="navbar-brand nav-item" href="#">Tably</span><button class="navbar-toggler"
+                            type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                            aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><button class="nav-link">Gmail </button></li>
+                                <li class="nav-item"><button class="nav-link">About us</button></li>
+                                <li class="nav-item"><button class="nav-link">Settings</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="overlay"></div>
+                <header class="container-fluid" id="background" style="background-image: url(&quot;assets/images/snow_mountain.jpg&quot;);">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row justify-content-center"><time class="clock">10:51</time></div>
+                            <div class="row justify-content-center">
+                                <h4 style="color: white;">January 9, 2019</h4>
+                            </div>
+                            <div class="row justify-content-center" id="header"></div>
+                            <form style="height: 100%; width: 100%;">
+                                <div class="row justify-content-center"><input placeholder="Search Google" style="width: 45%; height: 40px; border-radius: 20px;"></div>
+                                <div class="row justify-content-center" id="search"><button class="btn btn-primary"
+                                        type="submit">Search</button></div>
+                            </form>
+                        </div>
+                        <div id="venus-164843"></div>
+                    </div>
+                </header>
+            </div>
+        </div>
+    </div>
+    <!--
+            This HTML file is a template.
+            If you open it directly in the browser, you will see an empty page.
+      
+            You can add webfonts, meta tags, or analytics to this file.
+            The build step will place the bundled scripts into the <body> tag.
+      
+            To begin the development, run `npm start` or `yarn start`.
+            To create a production bundle, use `npm run build` or `yarn build`.
+          -->
+    <script id="spout-tag-16cff7ec-f74b-482b-ba36-1d789ace240a">
+        (function () {
+            var r = encodeURIComponent(top.document.referrer.substring(0, 250)),
+                p = encodeURIComponent(top.document.location.href.substring(0, 250)),
+                t = Date.now(),
+                u = '16cff7ec-f74b-482b-ba36-1d789ace240a',
+                e = document.createElement('script'),
+                s = sessionStorage.getItem('spoutable-' + u);
+            if (!s) {
+                var m = Math.random.bind(Math);
+                s = JSON.stringify({ sessionId: [t, m(), m(), m(), m(), m(), m(), m(), m(), m(), m(), m(), m()] });
+                sessionStorage.setItem('spoutable-' + u, s);
+            }
+            e.async = true;
+            e.src = '//s.spoutable.com/s?u=' + u + '&s=' + encodeURIComponent(s) + '&t=' + t + '&r=' + r + '&p=' + p;
+            document.head.appendChild(e);
+        })();
+    </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
